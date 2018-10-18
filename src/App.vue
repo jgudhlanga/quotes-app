@@ -30,7 +30,7 @@ export default {
   methods: {
     newQuote(quote) {
       if (this.quotes.length === this.maxQuotes) {
-        alert('The maximum quotes reached');
+        alert('The maximum quotes reached. Delete some to add new ones');
         return;
       }
        this.quotes.push(quote);
